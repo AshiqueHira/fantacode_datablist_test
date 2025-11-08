@@ -38,6 +38,7 @@ The automation performs the following steps:
 ```bash
 
 #Clone the Repository
+
 git clone https://github.com/AshiqueHira/fantacode_datablist_test.git
 cd fantacode_datablist_test
 
@@ -46,3 +47,6 @@ cd fantacode_datablist_test
 
 #Install the required browsers:
   playwright install
+  
+#Run
+pytest tests/test_datablist_upload.py
