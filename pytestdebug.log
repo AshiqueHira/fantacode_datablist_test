@@ -1,0 +1,1291 @@
+versions pytest-8.4.2, python-3.14.0.final.0
+invocation_dir=C:\Users\ashiq\Documents\Projects\Test\datablist
+cwd=C:\Users\ashiq\Documents\Projects\Test\datablist
+args=('--headed', '--slowmo', '500', '--debug')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x000001A239AB6F90>
+    pytest_plugin_registered [hook]
+        plugin: <Session  exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        plugin_name: session
+        manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x000001A239AB6F90>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001A239BBA510>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001A23C1E2A50>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: _pyrepl [assertion]
+    early skip of rewriting module: _pyrepl.utils [assertion]
+    early skip of rewriting module: _pyrepl.types [assertion]
+    early skip of rewriting module: _pyrepl.trace [assertion]
+    early skip of rewriting module: rlcompleter [assertion]
+    early skip of rewriting module: readline [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+          plugin_name: 1796263859536
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x000001A239AB6F90>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\freeze_support.py'>
+          plugin_name: freeze_support
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_base_url.plugin' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pytest_base_url\\plugin.py'>
+          plugin_name: base_url
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_playwright.pytest_playwright' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pytest_playwright\\pytest_playwright.py'>
+          plugin_name: playwright
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\ashiq\\\\AppData\\\\Local\\\\Temp\\\\tmpjlfbwgzn' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\ashiq\\\\AppData\\\\Local\\\\Temp\\\\tmpdnn0bbk4' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001A239BBA510>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001A23C1E2A50>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x000001A23C618830>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x000001A23C619010>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+          plugin_name: 1796263859536
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x000001A239AB6F90>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\freeze_support.py'>
+          plugin_name: freeze_support
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_base_url.plugin' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pytest_base_url\\plugin.py'>
+          plugin_name: base_url
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_playwright.pytest_playwright' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pytest_playwright\\pytest_playwright.py'>
+          plugin_name: playwright
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      early skip of rewriting module: _ast_unparse [assertion]
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\ashiq\\\\AppData\\\\Local\\\\Temp\\\\tmpjlfbwgzn' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\ashiq\\\\AppData\\\\Local\\\\Temp\\\\tmpdnn0bbk4' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001A239BBA510>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001A23C1E2A50>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x000001A23C618830>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x000001A23C619010>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x000001A23C619940>
+          plugin_name: funcmanage
+          manager: <_pytest.config.PytestPluginManager object at 0x000001A239AB5550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x000001A239AB6F90>
+          start_path: C:\Users\ashiq\Documents\Projects\Test\datablist
+          startdir: C:\Users\ashiq\Documents\Projects\Test\datablist
+      early skip of rewriting module: importlib.metadata._adapters [assertion]
+      early skip of rewriting module: email.message [assertion]
+      early skip of rewriting module: quopri [assertion]
+      early skip of rewriting module: email.utils [assertion]
+      early skip of rewriting module: email._parseaddr [assertion]
+      early skip of rewriting module: email.errors [assertion]
+      early skip of rewriting module: email._policybase [assertion]
+      early skip of rewriting module: email.header [assertion]
+      early skip of rewriting module: email.quoprimime [assertion]
+      early skip of rewriting module: email.base64mime [assertion]
+      early skip of rewriting module: email.charset [assertion]
+      early skip of rewriting module: email.encoders [assertion]
+      early skip of rewriting module: email._encoded_words [assertion]
+      early skip of rewriting module: email.iterators [assertion]
+      early skip of rewriting module: importlib.metadata._text [assertion]
+      early skip of rewriting module: email.parser [assertion]
+      early skip of rewriting module: email.feedparser [assertion]
+      finish pytest_report_header --> [['rootdir: C:\\Users\\ashiq\\Documents\\Projects\\Test\\datablist', 'configfile: pytest.ini', 'plugins: base-url-2.1.0, playwright-0.7.1'], ['using: pytest-8.4.2', 'registered third-party plugins:', '  pytest-base-url-2.1.0 at C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pytest_base_url\\plugin.py', '  pytest-playwright-0.7.1 at C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pytest_playwright\\pytest_playwright.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['C:\\Users\\ashiq\\Documents\\Projects\\Test\\datablist'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument CollectionArgument(path=WindowsPath('C:/Users/ashiq/Documents/Projects/Test/datablist'), parts=[], module_name=None) [collection]
+            pytest_collect_directory [hook]
+                path: C:\Users\ashiq\Documents\Projects\Test\datablist
+                parent: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_directory --> <Dir datablist> [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Dir datablist> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir datablist>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir datablist>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A239AB6F90>
+            collection_path: C:\Users\ashiq\Documents\Projects\Test\datablist\.pytest_cache
+            path: C:\Users\ashiq\Documents\Projects\Test\datablist\.pytest_cache
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A239AB6F90>
+            collection_path: C:\Users\ashiq\Documents\Projects\Test\datablist\__pycache__
+            path: C:\Users\ashiq\Documents\Projects\Test\datablist\__pycache__
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A239AB6F90>
+            collection_path: C:\Users\ashiq\Documents\Projects\Test\datablist\pytest.ini
+            path: C:\Users\ashiq\Documents\Projects\Test\datablist\pytest.ini
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir datablist>
+            file_path: C:\Users\ashiq\Documents\Projects\Test\datablist\pytest.ini
+            path: C:\Users\ashiq\Documents\Projects\Test\datablist\pytest.ini
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A239AB6F90>
+            collection_path: C:\Users\ashiq\Documents\Projects\Test\datablist\pytestdebug.log
+            path: C:\Users\ashiq\Documents\Projects\Test\datablist\pytestdebug.log
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir datablist>
+            file_path: C:\Users\ashiq\Documents\Projects\Test\datablist\pytestdebug.log
+            path: C:\Users\ashiq\Documents\Projects\Test\datablist\pytestdebug.log
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A239AB6F90>
+            collection_path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests
+            path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests
+            parent: <Dir datablist>
+        finish pytest_collect_directory --> <Dir tests> [hook]
+      finish pytest_make_collect_report --> <CollectReport '.' lenresult=1 outcome='passed'> [hook]
+    genitems <Dir tests> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir tests>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir tests>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A239AB6F90>
+            collection_path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\__pycache__
+            path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\__pycache__
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A239AB6F90>
+            collection_path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\datablist_page.py
+            path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\datablist_page.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\datablist_page.py
+            path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\datablist_page.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A239AB6F90>
+            collection_path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\test_datablist_upload.py
+            path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\test_datablist_upload.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\test_datablist_upload.py
+            path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\test_datablist_upload.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir tests>
+              module_path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\test_datablist_upload.py
+              path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\test_datablist_upload.py
+          finish pytest_pycollect_makemodule --> <Module test_datablist_upload.py> [hook]
+        finish pytest_collect_file --> [<Module test_datablist_upload.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001A239AB6F90>
+            collection_path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\test_example.py
+            path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\test_example.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\test_example.py
+            path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\test_example.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir tests>
+              module_path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\test_example.py
+              path: C:\Users\ashiq\Documents\Projects\Test\datablist\tests\test_example.py
+          finish pytest_pycollect_makemodule --> <Module test_example.py> [hook]
+        finish pytest_collect_file --> [<Module test_example.py>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests' lenresult=2 outcome='passed'> [hook]
+    genitems <Module test_datablist_upload.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_datablist_upload.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_datablist_upload.py>
+      find_module called for: test_datablist_upload [assertion]
+      matched test file 'C:\\Users\\ashiq\\Documents\\Projects\\Test\\datablist\\tests\\test_datablist_upload.py' [assertion]
+      found cached rewritten pyc for C:\Users\ashiq\Documents\Projects\Test\datablist\tests\test_datablist_upload.py [assertion]
+      early skip of rewriting module: datablist_page [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_datablist_upload.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_datablist_upload.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_datablist_upload.py>
+            name: os
+            obj: <module 'os' (frozen)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_datablist_upload.py>
+            name: pytest
+            obj: <module 'pytest' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pytest\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_datablist_upload.py>
+            name: sync_playwright
+            obj: <function sync_playwright at 0x000001A239C324B0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_datablist_upload.py>
+            name: DatablistPage
+            obj: <class 'datablist_page.DatablistPage'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_datablist_upload.py>
+            name: test_datablist_data_validation
+            obj: <function test_datablist_data_validation at 0x000001A23C6D7530>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001A23C6BC980>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_datablist_data_validation>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_datablist_upload.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Function test_datablist_data_validation> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_datablist_data_validation>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_datablist_upload.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_example.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_example.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_example.py>
+      find_module called for: test_example [assertion]
+      matched test file 'C:\\Users\\ashiq\\Documents\\Projects\\Test\\datablist\\tests\\test_example.py' [assertion]
+      found cached rewritten pyc for C:\Users\ashiq\Documents\Projects\Test\datablist\tests\test_example.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_example.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_example.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_example.py>
+            name: re
+            obj: <module 're' from 'C:\\Users\\ashiq\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\re\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_example.py>
+            name: Page
+            obj: <class 'playwright.sync_api._generated.Page'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_example.py>
+            name: expect
+            obj: <playwright.sync_api.Expect object at 0x000001A23A4D1400>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_example.py>
+            name: test_has_title
+            obj: <function test_has_title at 0x000001A23C7009E0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001A23C6E8910>
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x000001A239AB6F90>
+                val: chromium
+                argname: browser_name
+            finish pytest_make_parametrize_id --> None [hook]
+          early skip of rewriting module: encodings.unicode_escape [assertion]
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_has_title[chromium]>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_example.py>
+            name: test_get_started_link
+            obj: <function test_get_started_link at 0x000001A23C700B40>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001A23C6E8910>
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x000001A239AB6F90>
+                val: chromium
+                argname: browser_name
+            finish pytest_make_parametrize_id --> None [hook]
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_get_started_link[chromium]>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_example.py' lenresult=2 outcome='passed'> [hook]
+    genitems <Function test_has_title[chromium]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_has_title[chromium]>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_get_started_link[chromium]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_get_started_link[chromium]>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_example.py' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport '.' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x000001A239AB6F90>
+          items: [<Function test_datablist_data_validation>, <Function test_has_title[chromium]>, <Function test_get_started_link[chromium]>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x000001A239AB6F90>
+            items: [<Function test_datablist_data_validation>, <Function test_has_title[chromium]>, <Function test_get_started_link[chromium]>]
+            start_path: C:\Users\ashiq\Documents\Projects\Test\datablist
+            startdir: C:\Users\ashiq\Documents\Projects\Test\datablist
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=3>
+      pytest_runtest_protocol [hook]
+          item: <Function test_datablist_data_validation>
+          nextitem: <Function test_has_title[chromium]>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_datablist_upload.py::test_datablist_data_validation
+            location: ('tests\\test_datablist_upload.py', 6, 'test_datablist_data_validation')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_datablist_data_validation>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='base_url' scope='session' baseid=''>
+              request: <SubRequest 'base_url' for <Function test_datablist_data_validation>>
+          finish pytest_fixture_setup -->  [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
+              request: <SubRequest '_verify_url' for <Function test_datablist_data_validation>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='pytestconfig' scope='session' baseid=''>
+              request: <SubRequest 'pytestconfig' for <Function test_datablist_data_validation>>
+          finish pytest_fixture_setup --> <_pytest.config.Config object at 0x000001A239AB6F90> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
+              request: <SubRequest 'delete_output_dir' for <Function test_datablist_data_validation>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='tmp_path_factory' scope='session' baseid=''>
+              request: <SubRequest 'tmp_path_factory' for <Function test_datablist_data_validation>>
+          finish pytest_fixture_setup --> TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x000001A23C295370>, _basetemp=None, _retention_count=3, _retention_policy='all') [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='tmp_path' scope='function' baseid=''>
+              request: <SubRequest 'tmp_path' for <Function test_datablist_data_validation>>
+          early skip of rewriting module: getpass [assertion]
+          early skip of rewriting module: termios [assertion]
+          new basetemp C:\Users\ashiq\AppData\Local\Temp\pytest-of-ashiq\pytest-2 [config:tmpdir]
+          mktemp C:\Users\ashiq\AppData\Local\Temp\pytest-of-ashiq\pytest-2\test_datablist_data_validation0 [config:tmpdir]
+          finish pytest_fixture_setup --> C:\Users\ashiq\AppData\Local\Temp\pytest-of-ashiq\pytest-2\test_datablist_data_validation0 [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_datablist_data_validation>
+            call: <CallInfo when='setup' excinfo=<ExceptionInfo FixtureLookupError('input_file', <FixtureRequest for <Function test_datablist_data_validation>>) tblen=20>>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_datablist_upload.py::test_datablist_data_validation' when='setup' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_datablist_upload.py::test_datablist_data_validation' when='setup' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_datablist_upload.py::test_datablist_data_validation' when='setup' outcome='failed'>
+              config: <_pytest.config.Config object at 0x000001A239AB6F90>
+          finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <Function test_datablist_data_validation>
+            call: <CallInfo when='setup' excinfo=<ExceptionInfo FixtureLookupError('input_file', <FixtureRequest for <Function test_datablist_data_validation>>) tblen=20>>
+            report: <TestReport 'tests/test_datablist_upload.py::test_datablist_data_validation' when='setup' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_datablist_data_validation>
+            nextitem: <Function test_has_title[chromium]>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='tmp_path' scope='function' baseid=''>
+              request: <SubRequest 'tmp_path' for <Function test_datablist_data_validation>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_datablist_data_validation>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_datablist_upload.py::test_datablist_data_validation' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_datablist_upload.py::test_datablist_data_validation' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_datablist_upload.py::test_datablist_data_validation' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A239AB6F90>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_datablist_upload.py::test_datablist_data_validation
+            location: ('tests\\test_datablist_upload.py', 6, 'test_datablist_data_validation')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_has_title[chromium]>
+          nextitem: <Function test_get_started_link[chromium]>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_example.py::test_has_title[chromium]
+            location: ('tests\\test_example.py', 3, 'test_has_title[chromium]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_has_title[chromium]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_type_launch_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_type_launch_args' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_setup --> [hook]
+              headless: False
+              slow_mo: 500
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='playwright' scope='session' baseid=''>
+              request: <SubRequest 'playwright' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_setup --> <playwright._impl._playwright.Playwright object at 0x000001A23C6BEE40> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_name' scope='session' baseid=''>
+              request: <SubRequest 'browser_name' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_setup --> chromium [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_setup --> <BrowserType name=chromium executable_path=C:\Users\ashiq\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='connect_options' scope='session' baseid=''>
+              request: <SubRequest 'connect_options' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_setup --> <function launch_browser.<locals>.launch at 0x000001A23C776DA0> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid=''>
+              request: <SubRequest 'browser' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_setup --> <Browser type=<BrowserType name=chromium executable_path=C:\Users\ashiq\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe> version=140.0.7339.16> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='device' scope='session' baseid=''>
+              request: <SubRequest 'device' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_pw_artifacts_folder' scope='session' baseid=''>
+              request: <SubRequest '_pw_artifacts_folder' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_setup --> <TemporaryDirectory 'C:\\Users\\ashiq\\AppData\\Local\\Temp\\playwright-pytest-qtyz_9ow'> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_setup --> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_setup --> C:\Users\ashiq\Documents\Projects\Test\datablist\test-results\tests-test-example-py-test-has-title-chromium [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_setup --> <pytest_playwright.pytest_playwright.ArtifactsRecorder object at 0x000001A23C6BF8C0> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_setup --> <function new_context.<locals>._new_context at 0x000001A23C953480> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_setup --> <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=C:\Users\ashiq\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe> version=140.0.7339.16>> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_has_title[chromium]>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_example.py::test_has_title[chromium]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_example.py::test_has_title[chromium]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_example.py::test_has_title[chromium]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A239AB6F90>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_has_title[chromium]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_has_title[chromium]>
+        pytest_runtest_makereport [hook]
+            item: <Function test_has_title[chromium]>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo Error('Page.goto: net::ERR_CONNECTION_RESET at https://playwright.dev/\nCall log:\n  - navigating to "https://playwright.dev/", waiting until "load"\n') tblen=34>>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_example.py::test_has_title[chromium]' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_example.py::test_has_title[chromium]' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_example.py::test_has_title[chromium]' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x000001A239AB6F90>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <Function test_has_title[chromium]>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo Error('Page.goto: net::ERR_CONNECTION_RESET at https://playwright.dev/\nCall log:\n  - navigating to "https://playwright.dev/", waiting until "load"\n') tblen=34>>
+            report: <TestReport 'tests/test_example.py::test_has_title[chromium]' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_has_title[chromium]>
+            nextitem: <Function test_get_started_link[chromium]>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_has_title[chromium]>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_example.py::test_has_title[chromium]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_example.py::test_has_title[chromium]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_example.py::test_has_title[chromium]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A239AB6F90>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_example.py::test_has_title[chromium]
+            location: ('tests\\test_example.py', 3, 'test_has_title[chromium]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_get_started_link[chromium]>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_example.py::test_get_started_link[chromium]
+            location: ('tests\\test_example.py', 9, 'test_get_started_link[chromium]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_get_started_link[chromium]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_setup --> C:\Users\ashiq\Documents\Projects\Test\datablist\test-results\tests-test-example-py-test-get-started-link-chromium [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_setup --> <pytest_playwright.pytest_playwright.ArtifactsRecorder object at 0x000001A23C6EB110> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_setup --> <function new_context.<locals>._new_context at 0x000001A23C9DEA30> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_setup --> <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=C:\Users\ashiq\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe> version=140.0.7339.16>> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_get_started_link[chromium]>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_example.py::test_get_started_link[chromium]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_example.py::test_get_started_link[chromium]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_example.py::test_get_started_link[chromium]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A239AB6F90>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_get_started_link[chromium]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_get_started_link[chromium]>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_get_started_link[chromium]>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_example.py::test_get_started_link[chromium]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_example.py::test_get_started_link[chromium]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_example.py::test_get_started_link[chromium]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A239AB6F90>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_get_started_link[chromium]>
+            nextitem: None
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_pw_artifacts_folder' scope='session' baseid=''>
+              request: <SubRequest '_pw_artifacts_folder' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='device' scope='session' baseid=''>
+              request: <SubRequest 'device' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid=''>
+              request: <SubRequest 'browser' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid=''>
+              request: <SubRequest 'browser' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='connect_options' scope='session' baseid=''>
+              request: <SubRequest 'connect_options' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_name' scope='session' baseid=''>
+              request: <SubRequest 'browser_name' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='playwright' scope='session' baseid=''>
+              request: <SubRequest 'playwright' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type_launch_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_type_launch_args' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='tmp_path' scope='function' baseid=''>
+              request: <SubRequest 'tmp_path' for <Function test_datablist_data_validation>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='tmp_path_factory' scope='session' baseid=''>
+              request: <SubRequest 'tmp_path_factory' for <Function test_datablist_data_validation>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
+              request: <SubRequest 'delete_output_dir' for <Function test_datablist_data_validation>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_get_started_link[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='device' scope='session' baseid=''>
+              request: <SubRequest 'device' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type_launch_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_type_launch_args' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
+              request: <SubRequest 'delete_output_dir' for <Function test_datablist_data_validation>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='pytestconfig' scope='session' baseid=''>
+              request: <SubRequest 'pytestconfig' for <Function test_datablist_data_validation>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
+              request: <SubRequest '_verify_url' for <Function test_datablist_data_validation>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_has_title[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
+              request: <SubRequest '_verify_url' for <Function test_datablist_data_validation>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='base_url' scope='session' baseid=''>
+              request: <SubRequest 'base_url' for <Function test_datablist_data_validation>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_get_started_link[chromium]>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_example.py::test_get_started_link[chromium]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_example.py::test_get_started_link[chromium]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_example.py::test_get_started_link[chromium]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001A239AB6F90>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_example.py::test_get_started_link[chromium]
+            location: ('tests\\test_example.py', 9, 'test_get_started_link[chromium]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session  exitstatus=<ExitCode.TESTS_FAILED: 1> testsfailed=2 testscollected=3>
+        exitstatus: 1
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x000001A23C618830>
+          exitstatus: 1
+          config: <_pytest.config.Config object at 0x000001A239AB6F90>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_example.py::test_has_title[chromium]' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x000001A239AB6F90>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_datablist_upload.py::test_datablist_data_validation' when='setup' outcome='failed'>
+            config: <_pytest.config.Config object at 0x000001A239AB6F90>
+        finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x000001A239AB6F90>
+    finish pytest_unconfigure --> [] [hook]

@@ -1,0 +1,24 @@
+def toggle_filters(self, on_fields: list[str]):
+        """Toggle switches on or off based on their label text."""
+        # Locate all label blocks like 'CustomerId', 'Status', etc.
+        field_rows = self.page.locator("div.h-[50px].max-w-xl")
+
+        count = field_rows.count()
+        for i in range(count):
+            row = field_rows.nth(i)
+            label = row.locator("span").inner_text().strip()
+
+            # Find the toggle SVG inside the same row
+            toggle = row.locator("svg").last
+
+            # Determine toggle state (on/off) by checking circle position or color
+            color = toggle.get_attribute("color") or ""
+            is_on = "green" in color.lower()
+
+            should_be_on = label in on_fields
+
+            # Toggle only if state mismatch
+            if should_be_on and not is_on:
+                toggle.click()
+            elif not should_be_on and is_on:
+                toggle.click()
